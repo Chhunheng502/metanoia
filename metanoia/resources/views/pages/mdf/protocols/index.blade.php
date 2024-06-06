@@ -1,48 +1,56 @@
 @extends('layouts.app')
 
-@section('content')    
-    <div>
-        <p class="text-lg underline">Cannot Sleep (must have 7-8 hours of sleep => otherwise it will weaken our mind and protective barrier)</p>
-        <div>
-            <p class="font-bold">To prepare</p>
-            <li>Move your bed to other side away from noise</li>
-            <li>your sweet or calming scent to help you sleep</li>
-            <li>think of positive and heart-warming moments before sleep</li>
-            <li>Take another bath before sleep if needed</li>
-            <li>Read manga/light novel before if needed</li>
-        </div>
-        <div>
-            <p class="font-bold">To do if happen</p>
-            <li>Take a bath</li>
-            <li>Eat hot soup / coffee / tea</li>
-            <li>Eat high-calories food</li>
-            <li>Eat snacks (need enegy to fall as sleep)</li>
-            <li>Read heart-warming manga</li>
-            <li>If not, repeat again</li>
-        </div>
-        <div>
-            <p class="font-bold">To avoid</p>
-            <li>don't sleep early (should be between 10 - 11)</li>
-            <li>don't take sleeping pill (unless neccessary)</li>
-            <li>don't let anyone sleep with you (they might wake you up)</li>
-        </div>
-        <p class="text-lg underline">Axiety and Depression</p>
-            <li>Eat delicious food</li>
-            <li>Eat ice cream</li>
-            <li>Eat hot soup / coffee / tea</li>
-            <li>Take a ride around borey</li>
-            <li>Read heart-warming manga</li>
-            <li>If not, repeat again</li>
-        <div>
-            <p class="text-lg underline">Low in enegy and will power</p>
-            <li>Take a bath first of all</li>
-            <li>Go to sleep right away</li>
-            <li>If cannot sleep</li>
-            <li>Eat delicious food and snack</li>
-            <li>Drink tea</li>
-            <li>Read manga / light novel</li>
-            <li>If still cannot sleep, repeat again</li>
-            <li>If urge come, go outside immediately</li>
-        </div>
-    </div>
+@section('content')
+    <x-taps>
+        <x-slot name="content">
+            <div class="grid grid-cols-4 gap-4">
+                <x-card :link="'/mdf/protocols/1'">
+                    <x-slot name="header">
+                        Cannot Sleep
+                    </x-slot>
+                    <x-slot name="content">
+                        Less sleep could weaken your mind, will power, and resistance to urge
+                    </x-slot>
+                </x-card>
+                <x-card :link="'/mdf/protocols/2'">
+                    <x-slot name="header">
+                        Axiety and Depression
+                    </x-slot>
+                    <x-slot name="content">
+                        This could also provoke the urge since we use it as a coping mechanism in the past
+                    </x-slot>
+                </x-card>
+                <x-card :link="'/mdf/protocols/3'">
+                    <x-slot name="header">
+                        Device Radiation and Tension Headaches
+                    </x-slot>
+                    <x-slot name="content">
+                        Result from long-hours use of devices and engage in stressful situation
+                    </x-slot>
+                </x-card>
+                <x-card :link="'/mdf/protocols/4'">
+                    <x-slot name="header">
+                        Urge and Edging
+                    </x-slot>
+                    <x-slot name="content">
+                        Come from early post-nut clarity and engage in urge-inducing activities
+                    </x-slot>
+                </x-card>
+                <x-card :link="'/mdf/protocols/5'">
+                    <x-slot name="header">
+                        Low in Energy and Will Power
+                    </x-slot>
+                    <x-slot name="content">
+                        When having less sleep, too absorb in coding or high-consuming energy activities
+                    </x-slot>
+                </x-card>
+                <x-card :link="'/mdf/protocols/6'">
+                    <x-slot name="header">Exessive Energy</x-slot>
+                    <x-slot name="content">
+                        When eating too much, or sleep too much; This could lead to an urge (to replenish)
+                    </x-slot>
+                </x-card>
+            </div>
+        </x-slot>
+    </x-taps>
 @endsection

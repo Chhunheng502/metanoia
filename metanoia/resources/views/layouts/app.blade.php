@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/css/app.css">
+    @yield('css')
 </head>
 <body>
     <div class="container mx-auto px-4">
