@@ -1,0 +1,70 @@
+Main Content
+-> Process Bar (Avatar, Level, Health, Coins, Love, Lifestyle...)
+-> Todo List (could be similar to Habitica)
+-> Goal List (could be similar to Habitica)
+-> consider include academic level, work level, CV...
+-> Buy/Sell, Reward/Punishment
+Persona
+-> Beauty (list down usage and what you want to look like)
+-> your character (what you like, dislike and like to change)
+-> your favorite (food, book, movie genre...)
+-> your relationship (what friend you like to hang around, ...)
+Knowledge Discovery
+-> UI could be similar to GOD
+->
+Journal
+-> Could link to OneNote or Google Sheet
+->
+Missions/Goals (short-term, long-term)
+-> Flow/Trance
+-> Overcome axiety, addiction...
+Experience Gains
+-> UI could be similar to GOD
+-> Book references, article references...
+Status/Progress chart or bar
+-> could be a status tree (in GOD or GI) or some kinds of progress symbol but cool
+-> red means you failed to follow the todo-list, complete missions or goals, have a bad habit...
+-> could hang as a draggable components in the main content
+Skill Gains
+-> UI could be similar to GOD
+-> consider group this with Experience Gains
+-> practices, tranning, tutorials (own words)...
+-> music, driving, sense of humour
+Habits
+-> active/inactive
+-> assign level of usefulness and impact
+Nofab Protocols (could use this in the middle - use a symbol and hover text)
+Enenemies
+-> Abstract: addiction, bad habit, bad thinking, bad view + 
+-> Physical: bad friend, bad food, bad environment
+-> UI could be similar, animation effect, sound effect, fonts...
+Game
+-> use coins, character health and magic... as mechanism in the game
+-> game ideas: puzzle, magic shooting, card games (power, level...)
+Maps
+-> Place to visit
+-> Place visited
+-> Mark and memory (picture, journal links...)
+Memory
+-> picture (with added text)
+-> friends and family (make avatar and short description of them)
+...
+
+*** Use this as a guidebook throughout your life
+** Create component-based and version-based code (both API, and UI) to adapt future change (like theme based on season for example => make it cool and exciting)
+** Always find a way to improve further and make it even cooler and exciting
+** Create store and currency (level system as well) to buy theme, sound, equidments, pets, characters...
+** Consider create alarming button to counter mdf (could link to app or pc to shut it down or complete list before continue usage
+
+Use greek term or (Nurse) term to make things more interesting
+=> add god or godess as a side quest
+
+**** This what life should be **** ===> Fill yourself an exciting stuff, and get your heart boiling
+
+
+
+More feature
+-> Loneliness
+-> Daily Quote
+-> Control over any device (limit usage, allow only some apps, if violated must complete tasks first)
+-> Make this app into a master app (All in One)
