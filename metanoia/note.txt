@@ -68,3 +68,4 @@ More feature
 -> Daily Quote
 -> Control over any device (limit usage, allow only some apps, if violated must complete tasks first)
 -> Make this app into a master app (All in One)
+-> Add note taking feature
