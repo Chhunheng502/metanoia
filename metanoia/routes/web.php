@@ -1,14 +1,14 @@
 <?php
 
+use App\Http\Controllers\JournalController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.menu.index');
 });
 
-Route::get('/journal', function () {
-    return view('pages.journal.index');
-});
+Route::get('/journal', [JournalController::class, 'index']);
+Route::post('/journal', [JournalController::class, 'store']);
 
 Route::get('/well-being/bar', function () {
     return view('pages.well-being.bar');

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Document</title>
 
     <link rel="stylesheet" href="/css/app.css">
@@ -18,6 +19,8 @@
     <div class="container mx-auto px-4">
         @yield('content')
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
