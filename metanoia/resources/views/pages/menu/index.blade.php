@@ -5,7 +5,7 @@
         <ul class="space-x-2">
             <li><a href="#">Main Content</a></li>
             <li><a href="#">Persona</a></li>
-            <li><a href="#">Journal</a></li>
+            <li><a href="/journal">Journal</a></li>
             <li><a href="#">Missions/Goals</a></li>
             <li><a href="/well-being/bar" class="text-green-500">Well-being Bar</a></li>
             <li><a href="#">Knowledge Discovery</a></li>

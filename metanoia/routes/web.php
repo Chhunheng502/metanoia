@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('pages.menu.index');
 });
 
+Route::get('/journal', function () {
+    return view('pages.journal.index');
+});
+
 Route::get('/well-being/bar', function () {
     return view('pages.well-being.bar');
 });
